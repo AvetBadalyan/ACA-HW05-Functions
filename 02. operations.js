@@ -3,8 +3,8 @@
 
 //Sum
 function calculateSum(arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
+  let sum = arr[0];
+  for (let i = 1; i < arr.length; i++) {
     sum = sum + arr[i];
   }
 
@@ -14,8 +14,8 @@ calculateSum([1, 2, 3]);
 
 //Difference
 function calculateDiff(arr) {
-  let diff = 0;
-  for (let i = 0; i < arr.length; i++) {
+  let diff = arr[0];
+  for (let i = 1; i < arr.length; i++) {
     diff = diff - arr[i];
   }
 
@@ -25,8 +25,8 @@ calculateDiff([1, 2, 3]);
 
 //Multiplication
 function calculateMult(arr) {
-  let mult = 1;
-  for (let i = 0; i < arr.length; i++) {
+  let mult = arr[0];
+  for (let i = 1; i < arr.length; i++) {
     mult = mult * arr[i];
   }
 
@@ -36,8 +36,8 @@ calculateMult([1, 2, 3]);
 
 //Division
 function calculateDiv(arr) {
-  let div = 1;
-  for (let i = 0; i < arr.length; i++) {
+  let div = arr[0];
+  for (let i = 1; i < arr.length; i++) {
     div = div / arr[i];
   }
 
